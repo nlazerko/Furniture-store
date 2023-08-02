@@ -583,12 +583,64 @@ body {
   line-height: 27px; /* 135% */
 }
 
-.sixth_hero {
+.hero_group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+
   width: 130px;
   height: 50px;
   margin-top: 40px;
   margin-bottom: 106px;
 }
+.hero_pfoto {
+}
+.hero {
+}
+.hero_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero_name {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.hero_star {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-top: 7px;
+}
+
+.star {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-right: 8px;
+}
+.hero_raiting {
+  color: #000;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px;
+}
+
+/* .sixth_hero {
+  width: 130px;
+  height: 50px;
+  margin-top: 40px;
+  margin-bottom: 106px;
+} */
 
 .seventh {
   width: 1200px;
