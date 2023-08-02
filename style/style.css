@@ -260,6 +260,10 @@ body {
   gap: 20px;
 }
 
+.fourth_price {
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.3);
+}
+
 .fourth_title {
   color: #242424;
   text-align: left;
@@ -339,12 +343,16 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .bottom_content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 25px;
+  margin-right: 25px;
 }
 
 .price_title {
@@ -430,6 +438,7 @@ body {
 
 .btn_price:hover {
   background-color: #3c7575;
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.3);
 }
 
 .fifth {
