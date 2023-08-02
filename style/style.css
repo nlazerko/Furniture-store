@@ -52,7 +52,6 @@ body {
 .wrapper {
   display: flex;
 
-  padding-top: 44px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
